@@ -42,15 +42,33 @@ background-color: #daac00;
 
 }
 
-.cut{
+.service_section2 h1{
 
-    text-decoration: line-through;
+    font-size: 60px;
+    font-weight: bold;
+color: white;
+
+}
+
+.service_section2 p{
+
+    font-size: 20px;
+   
+color: white;
+
+}
+
+.service_section2 .cut{
+
+    text-decoration: line-through 4px #ff3150;
+    
+
     font-size: 40px;
     font-weight: bold;
     color: white;
 }
 
-.price{
+.service_section2 .price{
 
     
     font-size: 40px;
@@ -58,6 +76,58 @@ background-color: #daac00;
     padding-left: 20px;
     color: white;
 }
+
+.service_section2 .same button{
+
+
+background:#00bec9 ;
+width: 150px;
+height: 50px;
+border-radius: 20px;
+font-size: 20px;
+color: white;
+border: none;
+font-weight: bold;
+
+
+}
+
+
+.service_section3 .fa-brands{
+
+    height: 30px;
+    width: 30px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 50%;
+    border: 1px solid black;
+    background-color: #daac00;
+    color: white;
+    border: none;
+   margin-top: 20px;
+
+}
+
+.service_section3 h1{
+
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.service_section3 p{
+
+    font-size: 25px;
+padding-left: 20%;
+padding-right:20% ;
+}
+
+
+.service_section3 h3{
+
+padding: 10px;
+}
+
 
 
 
@@ -69,12 +139,188 @@ background-color: #daac00;
     height: 600px;
 }
 
+.yellow-section h3{
+
+    color: white;
+}
+
+
+
+
+
+
+.card-section h1{
+
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+
+
+.card-section h3{
+
+
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card-section h5{
+
+
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 20px;
+    color:#00bec9;
+}
+
+.card-section h6{
+
+font-size:20px ;
+padding-left: 20%;
+padding-right: 20%;
+
+}
+
+.card-section p{
+
+
+    text-align: justify;
+   
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.card-section button{
+
+    border: none;
+    color:#00bec9;
+    background: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-left: 20px; 
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .last_part{
 
 background-color: #343434;
 
 }
+
+.last_part a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+.last_part .fa-brands{
+
+    height: 30px;
+    width: 30px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 50%;
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+    border: none;
+   margin-top: 20px;
+   font-weight: bold;
+
+}
+
+.last_part h5{
+
+
+
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+
+
+
+
+
+.order2{
+
+    text-align:right ;
+}
+
+/* .large input {
+    background-color: #daac00;
+    border: none;
+    height: 40px;
+    width: 250px;
+} */
+
+
+
+
+
+.last_part .ma {
+
+    position: relative;
+
+}
+
+.last_part i .fa-regular{
+position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.last_part .form-control{
+
+    background-color: #daac00;
+    border: none;
+}
+
+
+.input-group-text{
+
+background-color: aqua;
+border: none;
+
+}
+
+
+
+
+
+
 
 
 
@@ -94,21 +340,44 @@ margin-top: 200px;
 
 
 
+.place{
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    transform: translate(30px, -8px);
+    background-color: #00bec9;
+    padding: 8px;
+}
 
 
+.nav-link {
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.write h1{
+
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 50px;
+}
+
+.write p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
+ 
+}
 
 
-
-/* .banner_section .write{
-
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-text-align: center;
-color: white;
-
-} */
 
  
 .write{
@@ -119,32 +388,154 @@ margin-top: 150px;
 
 
 }
-.banner_section .write button {
-	background-color: #ff3150;
+
+.contact{
+
+    display: inline-block;
+}
+
+.our{
+
+    display: inline-block;
+    padding-left: 30px;
+}
+.banner_section .contact button {
+	background-color: #00bec9;
 	width: 150px;
-	height: 43px;
+	height: 55px;
 	border-radius: 10px;
 	font-size: 20px;
 	text-transform: capitalize;
 	font-weight: bold;
-	color: #ffc501;
+	color: #fff;
+  
 }
 
+
+.banner_section .our button {
+	background-color: #fcc302;
+	width: 150px;
+	height: 55px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #fff;
+    display: inline;
+    border: 2px solid white
+}
 /************************/
 .banner_section{
 
     position: relative;
     background-color: #fcc302;
     height: 780px;
-    padding: 200px 0px;
+    padding: 88px 0px;
 }
 
 /**************************/
+.lover1_section{
+    margin-top: 70px;
+}
+
+
+.lover1_section h1{
+
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-bottom: 30px;
+   
+}
+
+.lover1_section p{
+    font-size: 30px;
+    padding-bottom: 30px;
+ 
+    
+
+ 
+}
+
+.lover1_section button{
+
+    background-color: #fcc302; 
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .service_section{
 
     background-color: #ffc501;
 }
+
+.service_section h1{
+
+color: white;
+font-size: 60px;
+font-weight: bold;
+padding-bottom: 30px;
+
+
+}
+
+.service_section p{
+    color: white;
+    font-size: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+    text-transform: capitalize;
+
+
+  
+    
+    
+}
+
+
+
+    .service_section .flex-column h3{
+
+
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
 
 .service_section2{
 
@@ -152,29 +543,69 @@ margin-top: 150px;
 }
 
 
-.service_section .flex-column h3{
+.love2_section{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
 
+.love2_section h1{
 
-    color: #ffc501;
+    font-size: 40px;
     font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+
+
+.love2_section p{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+
+}
+ 
+.love2_section button{
+
+    background-color: #ffc501; 
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;
+  
+    
+}
+
+.switch{
+    text-align: right;
 }
 
 
 
 
 
-.service_section .matbor p{
-    border-bottom: 2px solid blue;
-    display: inline;
-    text-align: center;
-   padding-bottom: 20px;
-   
-}  
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .gallary_section .matbor p{
     border-bottom: 2px solid blue;
     display: inline;
@@ -294,11 +725,11 @@ margin-top: 150px;
        opacity: 1;
        
         
-    }
+    } */
     
 
 
-
+/* 
 
 .tv_section button{
 
@@ -319,13 +750,13 @@ margin-top: 150px;
 
 .tv_section .lekha p {
     text-align: justify;
-  
+   */
 
 
 
-.tv img{
+/* .tv img{
     width: 100%;
-}
+} */
 
 /* .tv_section .topp {
 
